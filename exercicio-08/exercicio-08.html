@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset='utf-8'>
+        <title>Exercício 08 - Formulário Avançado</title>
+    </head>
+    <body>
+        <h1>Aulas de Hipermidias</h1>
+        <h2>Preencha o formulário abaixo</h2>
+        
+        <form action="#">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                
+                <table>
+                    <tr>
+                        <td>
+                            <label for="nome">Nome: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="nome" name="nome" />
+                        </td>
+                        <td>
+                            &nbsp;<label for="sobrenome">Sobrenome: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="sobrenome" name="sobrenome"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="nasc">Nascimento: </label>
+                        </td>
+                        <td>
+                            <input type="date" id="nasc" name="nasc"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="rg">RG: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="rg" name="rg"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cpf">CPF: </label>
+                        </td>
+                        <td>
+                            <input type="text" size="5" id="cpf" name="cpf" />
+                             - 
+                            <input type="text" size="1" name="cpf" id="cpf" />
+                        </td>
+                    </tr>
+                </table>
+
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Dados de Endereço</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="rua">Rua: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="rua" name="rua"/>
+                        </td>
+                        <td>
+                            &nbsp;<label for="numero">Número: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="numero" name="numero" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="bairro">Bairro: </label>
+                        </td>
+                        <td>
+                            <input type="text" id="bairro" name="bairro" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="estado">Estado:</label>
+                        </td>
+                        <td>
+                            <select name="estados" id="estado">
+                                <option value="Acre">Acre</option>
+                                <option value="Salvador">Salvador</option>
+                                <option value="Rio de Janeiro">Rio de Janeiro</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cidade">Cidade:</label>
+                        </td>
+                        <td>
+                            <input type="text" id="cidade" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cep">CEP:</label>
+                        </td>
+                        <td>
+                            <input type="text" size="5" id="cep" name="cep" />
+                             - 
+                            <input type="text" size="3" name="cep" id="cep" />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Dados de Login</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="email">E-mail: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="email" id="email" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="imagem">Imagem de perfil: </label>
+                        </td>
+                        <td>
+                            <input type="file" name="imagem" id="imagem" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="login">Login de usuário: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="login" id="login" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="senha">Senha: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="senha" id="senha" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ConfSenha">Confirma a senha: </label>
+                        </td>
+                        <td>
+                            <input type="text" name="ConfSenha" id="ConfSenha" />
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Pesquisa de Interesse:</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="trabalharWebmaster">Você deseha trabalhar como Webmaster? </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="trabalharWebmaster" value="sim" />Sim
+                            <br />
+                            <input type="radio" name="trabalharWebmaster" value="nao" />Não
+                            <br />
+                            <input type="radio" name="trabalharWebmaster" value="talvez" />Talvez
+                            <br />
+                            <input type="radio" name="trabalharWebmaster" value="quemSabe" />Quem Sabe
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="desejaAprender">O que você deseja aprender? </label>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="desejaAprender" value="html" />HTML
+                            <br />
+                            <input type="checkbox" name="desejaAprender" value="CSS" />CSS
+                            <br />
+                            <input type="checkbox" name="desejaAprender" value="JavaScript" />JavaScript
+                            <br />
+                            <input type="checkbox" name="desejaAprender" value="Django" />Django
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="comentario">Deixe seu comentário: </label>
+                        </td>
+                        <td>
+                            <textarea name="comentario" id="comentario" cols="50" rows="10"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            
+            <br />
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+
+        <br />
+        <a href="/index.html">Voltar para a página Inicial(Menu de Exercícios)</a>
+    
+    </body>
+</html>
