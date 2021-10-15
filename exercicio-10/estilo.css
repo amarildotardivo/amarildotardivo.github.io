@@ -1,0 +1,20 @@
+ul li a::before{
+    content: '\2601';
+}
+
+ul li a:link{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+ul li a:visited{
+    color: maroon;
+}
+
+ul li a:hover{
+    color: yellow;
+}
+
+ul li a:active{
+    color: blue;
+}
