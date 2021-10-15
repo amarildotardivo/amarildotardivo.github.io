@@ -1,0 +1,18 @@
+main{
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main h1{
+    font-family: 'Ephesis', cursive;
+}
+
+article{
+    background-color: #0f65aa;
+}
+
+article p{
+    color: #ccc;
+    text-align: center;
+}
