@@ -12,7 +12,7 @@ ul li a:visited{
 }
 
 ul li a:hover{
-    color: yellow;
+    background-color: yellow;
 }
 
 ul li a:active{
