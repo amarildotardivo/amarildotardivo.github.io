@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+
+body{
+    margin: 10px 10px 10px 10px;   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    background-color: #808080;
+    color: #fff;
+    padding: 5px;
+}
+
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 145px;
+    border-right: 1px solid #535353;
+    padding-right: 15px;
+    float: left;
+    clear: right;
+    height: 330px;
+    margin: 10px 10px 0px 10px;
+}
+
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: block;
+    background-color: #e2e2e2;
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid #fff;
+}
+
+nav ul li a:link{
+    color: #242424;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-image: url('Sprite_g.jpg');
+}
+
+#principal{
+    margin: 10px 10px 10px 20px;
+}
+
+#principal h2{
+    margin: 25px 0;
+}
+
+#principal p{
+    padding-bottom: 15px;
+}
+
+footer{
+    clear: left;
+    background-color: #808080;
+    padding: 5px;
+    color: #fff;
+}

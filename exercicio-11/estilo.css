@@ -4,8 +4,6 @@
 
 #horizontal{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color:#e2e2e2;
-    max-width: 390px;
 }
 
 #horizontal ul{
@@ -15,6 +13,7 @@
 #horizontal ul li{
     display: inline;
     padding: 15px;
+    background-color:#e2e2e2;
 }
 
 #horizontal ul li a:link{
@@ -29,12 +28,18 @@
 #vertical{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color:#e2e2e2;
-    max-width: 150px;
+    max-width: 145px;
     
 }
 
 #vertical ul{
     padding: 0;
+}
+
+#vertical ul li{
+    display: block;
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid #fff;
 }
 
 #vertical ul li a:link{
@@ -44,10 +49,4 @@
 
 #vertical ul li:hover{
     background-image: url('Sprite_g.jpg');
-}
-
-#vertical ul li{
-    display: block;
-    padding: 15px 20px 15px 20px;
-    border-bottom: 1px solid #fff;
 }
