@@ -14,12 +14,18 @@ function eventoAddItens(){
 
 }
 
-function acendeLampada(){
-    //let lamp = document.getElementById('lamp').innerHTML
-    
-    document.getElementById('lamp').innerHTML = "<img src='img/lampada_on.gif' id = 'lampOn' />"
-        
-    
+var lampada = document.getElementById('lamp');
+lampada.addEventListener('click', acendeLampada);
+
+function acendeLampada(e) {
+
+    if (e.target.src.match("img/lampada_on.gif")) {
+        e.target.src = "img/lampada_off.gif";
+    }
+
+    else {
+        e.target.src = "img/lampada_on.gif";
+    }
 }
 
 function esconde(obj) {
